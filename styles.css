@@ -14,8 +14,8 @@ body {
 
 img {
   width: 600px;
-  height: 100vh;
-  height: 100svh;
+  height: 82vh;
+  height: 82svh;
 }
 
 .header-wrapper {
@@ -52,13 +52,12 @@ a:visited {
 }
 
 .form-container {
-  padding-left: 30px;
+  background-color: whitesmoke;
 }
 
 .cta {
   margin-top: 150px;
-  background-color: whitesmoke;
-  padding: 0 250px 30px 0px;
+  padding: 0 250px 30px 30px;
 }
 
 .form-info {
@@ -69,6 +68,12 @@ a:visited {
 .widget {
   display: flex;
   flex-direction: column;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 10px 0 0 30px;
+  box-shadow: 0 3px #f1e3e3;
 }
 
 .right-col {
@@ -96,16 +101,25 @@ input:focus {
   box-shadow: 2px 2px #888888;
 }
 
+input[type=password] {
+  margin-bottom: 20px;
+}
+
 button {
   background-color: rgb(59, 59, 231);
   color: white;
-  padding: 8px 16px;
+  padding: 8px 24px;
   cursor: pointer;
+  margin: 20px 0 0 30px;
+  border-radius: 6px;
 }
 
 button:hover {
   background-color: rgb(102, 102, 238);
-  color: 700;
+}
+
+.log-paragraph {
+  padding-left: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
