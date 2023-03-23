@@ -19,16 +19,51 @@
       </div>
       <img src="./form-img.jpg" alt="a waterfall">
       <div class="image-credits">
-        <p>Photo by <a href="https://unsplash.com/pt-br/@danielsessler">Daniel Seßler</a>, visit at <a
-        href="https://unsplash.com/pt-br/fotografias/URgfDyVgR5o">Unplash</a></p>
+        <p>Photo by <a href="https://unsplash.com/pt-br/@danielsessler">Daniel Seßler</a>, 
+        visit at <a href="https://unsplash.com/pt-br/fotografias/URgfDyVgR5o">Unplash</a></p>
       </div>
     </div>
     <div class="form-container">
       <div class="cta">
-        <h3>This is not a real online service! You know you need something</h3>
-        <h3>like this in your life to help you realize your deepest dreams.</h3>
+        <h3>This is not a real online service! You know you need something
+        like this in your life to help you realize your deepest dreams.</h3>
         <h3>You <i>know</i> you want to.</h3>
       </div>
+      <form action="#" method="post">
+        <h3>Let's do this!</h3>
+        <div class="form-info">
+          <div class="left-col">
+            <div class="widget">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="user_fname" required>
+            </div>
+            <div class="widget">
+              <label for="mail">Email</label>
+              <input type="email" id="mail" name="user_mail" required>
+            </div>
+            <div class="widget">
+              <label for="pwd">Password</label>
+              <input type="password" id="pwd" name="user_pwd" required>
+            </div>
+          </div>
+          <div class="right-col">
+            <div class="widget">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="user_lname" required>
+            </div>
+            <div class="widget">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="user_phone" required>
+            </div>
+            <div class="widget">
+              <label for="confirm-pwd">Confirm Password</label>
+              <input type="password" id="confirm-pwd" name="user_cpwd" required>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
     </div>
   </div>
 </body>
