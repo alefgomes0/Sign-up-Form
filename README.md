@@ -1,2 +1,3 @@
 # Sign-up-Form
-Sign-up form made with HTML/CSS as a project exercise for The Odin Project curriculum.
+Sign-up form made with HTML/CSS as a project exercise for The Odin Project curriculum. 
+No Bootstrap/grid layout used.
