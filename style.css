@@ -33,9 +33,44 @@ html, body {
 
 .image-container {
   display: grid;
+  grid-template-rows: repeat(5, 1fr);
   grid-column: 1 / 2;
   grid-row: 1 / -1;
   background: url(./form-img.jpg);
   background-size: cover;
   width: clamp(400px, 100%, 100%);
+}
+
+.image-header {
+  display: flex;
+  grid-row: 2 / 3;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(159, 183, 196, 0.5058823529);
+  height: 80px;
+  gap: 15px;
+  margin-top: 22px;
+}
+
+.image-h2 {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Delicious Handrawn";
+  color: #f9f3f3;
+}
+
+.odin-logo {
+  width: 65px;
+  height: 65px;
+}
+
+.image-credits {
+  grid-row: -1;
+  text-align: center;
+  color: #fff;
+}
+
+a:visited,
+a:link {
+  color: #fff;
 }
