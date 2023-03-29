@@ -9,6 +9,14 @@ html, body {
   height: 100%;
 }
 
+@font-face {
+  font-family: 'norsebold';
+  src: url('norse-bold-webfont.woff2') format('woff2'),
+       url('norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .page-container {
   display: grid;
   grid-template-columns: 3fr 5fr;
@@ -46,10 +54,10 @@ html, body {
 }
 
 .image-h2 {
-  font-size: 48px;
-  font-weight: 800;
-  font-family: "Delicious Handrawn";
-  color: #f9f3f3;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "norsebold", "Delicious Handrawn";
+  color: #ffffff;
 }
 
 .odin-logo {
