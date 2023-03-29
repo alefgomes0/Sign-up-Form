@@ -8,9 +8,12 @@ const pwdErrorMessage = document.createElement("p");
 pwdErrorMessage.textContent = "* Passwords don't match";
 pwdErrorMessage.classList.add("pwd-error");
 
-confirmedPassword.addEventListener("change", () => {
+confirmedPassword.addEventListener("keyup", () => {
   if (password.value != confirmedPassword.value) {
     passwordDiv.appendChild(pwdErrorMessage);
+  }
+  else if (password.value === "" && confirmedPassword.value === "") {
+    passwordDiv.removeChild(pwdErrorMessage);
   }
   else {
     passwordDiv.removeChild(pwdErrorMessage);
